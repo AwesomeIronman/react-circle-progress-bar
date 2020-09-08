@@ -1,5 +1,5 @@
 {
-  "name": "react-circle-progress-bar",
+  "name": "react-circle-progress-bar_no-css",
   "version": "0.1.4",
   "main": "dist/progress.js",
   "module": "dist/progress.js",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coupez/react-circle-progress-bar"
+    "url": "https://github.com/AwesomeIronman/react-circle-progress-bar"
   },
   "dependencies": {
     "react": "^16.8.6",
