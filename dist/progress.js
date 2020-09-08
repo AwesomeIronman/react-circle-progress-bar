@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './progress.module.css';
 
 function useAnimateValue(value, duration) {
   const [current, setCurrent] = React.useState(value);
@@ -62,11 +61,11 @@ function _Progress({
   const circumference = Math.PI * r * 2;
   const offset = circumference * (100 - progress * (1 - reduction)) / 100;
   return /*#__PURE__*/React.createElement("div", {
-    className: `${className} ${styles.progress}`,
+    className: `${className} progress-ring-wrapper`,
     style: style
   }, /*#__PURE__*/React.createElement("svg", {
     viewBox: `0 0 ${width} ${height}`,
-    className: styles.svg
+    className: "progress-ring-svg"
   }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
     id: "gradient" + unique,
     x1: "0%",
